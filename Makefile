@@ -1,2 +1,3 @@
 all:
-	clang++ 2_7_F_sort_points.cpp -Werror -Wextra -Wall -std=c++2a && ./a.out
+	clang++ 3_1_C_vans.cpp -Werror -Wextra -Wall -std=c++2a -O2 -fsanitize=address,undefined && ./a.out
+
