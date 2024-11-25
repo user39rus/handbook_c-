@@ -30,13 +30,13 @@ int main() {
       field[x + 1][y + 1]++;
   }
   for (int i = 0; i < n; ++i) {
-           if (field[i][0] < 0)
-        cout << "*";
-      else
-        cout << field[i][0];
-  
+    if (field[i][0] < 0)
+      cout << "*";
+    else
+      cout << field[i][0];
+
     for (int j = 1; j < m; ++j) {
-        cout.width(2);
+      cout.width(2);
       if (field[i][j] < 0)
         cout << " *";
       else
